@@ -1,0 +1,87 @@
+{
+    "children": [
+        {
+            "path": "A",
+            "name": "A",
+            "meta": {
+                "title": "A",
+                "type": 1
+            },
+            "children": [
+                {
+                    "path": "A1",
+                    "name": "A1",
+                    "meta": {
+                        "title": "A1",
+                        "keepAlive": true,
+                        "type": 2
+                    }
+                },
+                {
+                    "path": "A2",
+                    "name": "A2",
+                    "meta": {
+                        "title": "A2",
+                        "keepAlive": true,
+                        "type": 2
+                    }
+                },
+                {
+                    "path": "A3",
+                    "name": "A3",
+                    "meta": {
+                        "title": "A3",
+                        "keepAlive": true,
+                        "type": 2
+                    }
+                }
+            ]
+        },
+        {
+            "path": "B/:keyword",
+            "name": "B",
+            "meta": {
+                "title": "B",
+                "keepAlive": true,
+                "type": 2
+            }
+        },
+        {
+            "path": "C",
+            "name": "C",
+            "meta": {
+                "title": "C",
+                "keepAlive": true,
+                "type": 2
+            }
+        },
+        {
+            "path": "D/:id",
+            "name": "D",
+            "meta": {
+                "title": "D",
+                "keepAlive": true,
+                "type": 2
+            },
+            "props": true
+        },
+        {
+            "path": "/pinia",
+            "name": "pinia",
+            "meta": {
+                "title": "pinia",
+                "keepAlive": true,
+                "type": 2
+            }
+        },
+        {
+            "path": "/vuex",
+            "name": "vuex",
+            "meta": {
+                "title": "vuex",
+                "keepAlive": true,
+                "type": 2
+            }
+        }
+    ]
+}
